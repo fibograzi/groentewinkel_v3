@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioMarkt - Uw Online Biologische Supermarkt</title>
+    <meta name="description" content="De beste biologische producten direct van Nederlandse boeren. Vers, lokaal en duurzaam bezorgd.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="logo">
+                    <span class="logo-text">BioMarkt</span>
+                    <span class="logo-leaf">🌿</span>
+                </a>
+                <div class="nav-menu">
+                    <a href="#producten" class="nav-link">Producten</a>
+                    <a href="#over-ons" class="nav-link">Over Ons</a>
+                    <a href="#duurzaamheid" class="nav-link">Duurzaamheid</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-actions">
+                    <button class="search-btn" aria-label="Zoeken">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </button>
+                    <button class="cart-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 2 3 6v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-6-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M9 2v4"></path>
+                            <path d="M15 2v4"></path>
+                        </svg>
+                        <span class="cart-count">0</span>
+                    </button>
+                </div>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Vers van het Land, Direct bij U Thuis</h1>
+                <p class="hero-subtitle">100% biologische producten van Nederlandse boeren. Bestel vandaag, morgen bezorgd.</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary">Ontdek Onze Producten</button>
+                    <button class="btn btn-secondary">Lees Ons Verhaal</button>
+                </div>
+                <div class="hero-badges">
+                    <div class="badge">
+                        <img src="./assets/icons/organic-cert.svg" alt="Bio Certificaat">
+                        <span>EKO Gecertificeerd</span>
+                    </div>
+                    <div class="badge">
+                        <img src="./assets/icons/local.svg" alt="Lokaal">
+                        <span>100% Nederlands</span>
+                    </div>
+                    <div class="badge">
+                        <img src="./assets/icons/delivery.svg" alt="Bezorging">
+                        <span>Gratis Bezorging</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div style="width: 100%; height: 400px; background: linear-gradient(135deg, #7CB342 0%, #689F38 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">🥬🥕🍅</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="producten">
+        <div class="container">
+            <h2 class="section-title">Winkel per Categorie</h2>
+            <div class="category-grid">
+                <a href="#groenten" class="category-card">
+                    <div class="category-image" style="display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🥬
+                    </div>
+                    <h3>Groenten</h3>
+                    <p>Vers geplukt</p>
+                </a>
+                <a href="#fruit" class="category-card">
+                    <div class="category-image" style="display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🍎
+                    </div>
+                    <h3>Fruit</h3>
+                    <p>Zoet & sappig</p>
+                </a>
+                <a href="#zuivel" class="category-card">
+                    <div class="category-image" style="display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🥛
+                    </div>
+                    <h3>Zuivel</h3>
+                    <p>Van blije koeien</p>
+                </a>
+                <a href="#brood" class="category-card">
+                    <div class="category-image" style="display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🍞
+                    </div>
+                    <h3>Brood</h3>
+                    <p>Dagvers gebakken</p>
+                </a>
+                <a href="#vlees" class="category-card">
+                    <div class="category-image" style="display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🥩
+                    </div>
+                    <h3>Vlees</h3>
+                    <p>Diervriendelijk</p>
+                </a>
+                <a href="#pantry" class="category-card">
+                    <div class="category-image" style="display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🥫
+                    </div>
+                    <h3>Voorraadkast</h3>
+                    <p>Basis producten</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Populaire Producten</h2>
+            <div class="products-carousel">
+                <div class="product-card">
+                    <div class="product-image" style="display: flex; align-items: center; justify-content: center; font-size: 5rem;">
+                        <span class="product-badge">Nieuw</span>
+                        🍅
+                    </div>
+                    <div class="product-info">
+                        <h3>Biologische Tomaten</h3>
+                        <p class="product-origin">Van Boer Janssen, Limburg</p>
+                        <div class="product-price">
+                            <span class="price">€3,49</span>
+                            <span class="unit">per kg</span>
+                        </div>
+                        <button class="btn-add-cart">In Winkelwagen</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="display: flex; align-items: center; justify-content: center; font-size: 5rem;">
+                        <span class="product-badge sale">-20%</span>
+                        🍎
+                    </div>
+                    <div class="product-info">
+                        <h3>Elstar Appels</h3>
+                        <p class="product-origin">Van Boomgaard De Hof, Zeeland</p>
+                        <div class="product-price">
+                            <span class="price">€2,79</span>
+                            <span class="price-old">€3,49</span>
+                            <span class="unit">per kg</span>
+                        </div>
+                        <button class="btn-add-cart">In Winkelwagen</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="display: flex; align-items: center; justify-content: center; font-size: 5rem;">
+                        🥛
+                    </div>
+                    <div class="product-info">
+                        <h3>Verse Volle Melk</h3>
+                        <p class="product-origin">Van Zuivelboerderij Het Groene Hart</p>
+                        <div class="product-price">
+                            <span class="price">€1,89</span>
+                            <span class="unit">per liter</span>
+                        </div>
+                        <button class="btn-add-cart">In Winkelwagen</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="display: flex; align-items: center; justify-content: center; font-size: 5rem;">
+                        🍞
+                    </div>
+                    <div class="product-info">
+                        <h3>Volkoren Desembrood</h3>
+                        <p class="product-origin">Van Bakkerij De Korenmolen</p>
+                        <div class="product-price">
+                            <span class="price">€3,95</span>
+                            <span class="unit">per brood</span>
+                        </div>
+                        <button class="btn-add-cart">In Winkelwagen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="over-ons">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Ons Verhaal</h2>
+                    <p class="lead">BioMarkt verbindt Nederlandse biologische boeren direct met consumenten die kiezen voor gezond, duurzaam en lokaal.</p>
+                    <p>Sinds 2020 werken we samen met meer dan 50 gecertificeerde biologische boeren door heel Nederland. Elke dag rijden onze elektrische bezorgwagens uit om de verste producten van het land direct bij u thuis te bezorgen.</p>
+                    <p>We geloven in transparantie, eerlijke prijzen voor boeren, en het minimaliseren van onze ecologische voetafdruk. Daarom vertellen we u precies waar uw eten vandaan komt en wie het heeft verbouwd.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Nederlandse Boeren</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10k+</span>
+                            <span class="stat-label">Blije Klanten</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Biologisch</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div style="width: 100%; height: 400px; background: linear-gradient(135deg, #795548 0%, #6D4C41 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">👨‍🌾🌾🚜</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Section -->
+    <section class="sustainability" id="duurzaamheid">
+        <div class="container">
+            <h2 class="section-title">Onze Duurzaamheidsbelofte</h2>
+            <div class="sustainability-grid">
+                <div class="sustainability-card">
+                    <div class="icon">🌱</div>
+                    <h3>100% Biologisch</h3>
+                    <p>Alle producten zijn EKO gecertificeerd en vrij van pesticiden</p>
+                </div>
+                <div class="sustainability-card">
+                    <div class="icon">🚐</div>
+                    <h3>Elektrisch Transport</h3>
+                    <p>CO2-neutrale bezorging met onze elektrische vloot</p>
+                </div>
+                <div class="sustainability-card">
+                    <div class="icon">♻️</div>
+                    <h3>Zero Waste</h3>
+                    <p>Herbruikbare verpakkingen en compostering van restafval</p>
+                </div>
+                <div class="sustainability-card">
+                    <div class="icon">🤝</div>
+                    <h3>Eerlijke Handel</h3>
+                    <p>Directe handel met boeren voor eerlijke prijzen</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Blijf Op De Hoogte</h2>
+                <p>Ontvang wekelijks recepten, seizoenstips en exclusieve aanbiedingen</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Uw e-mailadres" required>
+                    <button type="submit" class="btn btn-primary">Aanmelden</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>BioMarkt</h4>
+                    <p>Uw online biologische supermarkt voor vers, lokaal en duurzaam.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Producten</h4>
+                    <ul>
+                        <li><a href="#groenten">Groenten</a></li>
+                        <li><a href="#fruit">Fruit</a></li>
+                        <li><a href="#zuivel">Zuivel</a></li>
+                        <li><a href="#vlees">Vlees & Vis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Klantenservice</h4>
+                    <ul>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#faq">Veelgestelde Vragen</a></li>
+                        <li><a href="#bezorging">Bezorginformatie</a></li>
+                        <li><a href="#retour">Retourbeleid</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p>📧 info@biomarkt.nl</p>
+                    <p>📞 020-123-4567</p>
+                    <p>🕐 Ma-Za: 8:00 - 20:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BioMarkt. Alle rechten voorbehouden.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy</a>
+                    <a href="#voorwaarden">Algemene Voorwaarden</a>
+                    <a href="#cookies">Cookie Beleid</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Winkelwagen</h3>
+            <button class="cart-close" aria-label="Sluit winkelwagen">✕</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <p class="cart-empty">Uw winkelwagen is leeg</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Totaal:</span>
+                <span class="cart-total-price">€0,00</span>
+            </div>
+            <button class="btn btn-primary btn-checkout">Naar Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
